@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Encabezado principal */
+header {
+  background-color: #2a7a7b; /* tono verde-azulado */
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;       /* elimina viñetas */
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;          /* menú horizontal */
+  justify-content: center;
+  gap: 1.5rem;            /* espacio entre enlaces */
+}
+
+nav li {
+  display: inline;        /* cada elemento en línea */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
