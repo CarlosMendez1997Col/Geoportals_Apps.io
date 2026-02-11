@@ -6,7 +6,6 @@ body {
   color: #333;
 }
 
-
 /* Encabezado principal con imagen */
 header {
   background-image: url("banner-header-paper-crumpled.jpg");
@@ -30,7 +29,6 @@ header::before {
 header h1, header nav {
   position: relative; /* asegura que el texto quede encima del overlay */
 }
-
 
 header h1 {
   margin: 0;
