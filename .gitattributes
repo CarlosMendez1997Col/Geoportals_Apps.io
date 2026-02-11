@@ -1,0 +1,10 @@
+/docs/**/*.html linguist-detectable=true
+/docs/**/*.css linguist-detectable=true
+/docs/**/*.js linguist-detectable=true
+
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+
+*.sql linguist-language=SQL linguist-detectable=true
+*.ipynb linguist-language=Python linguist-detectable=true
